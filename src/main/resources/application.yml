@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    password: test
+    username: test_oa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db_oa?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
+  redis:
+    host: 192.168.56.101
+    port: 6379
+    database: 0
+    connect-timeout: 1800000
